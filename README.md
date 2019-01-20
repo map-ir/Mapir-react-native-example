@@ -8,11 +8,10 @@ Demo Application for [Mapir React Native SDK](https://github.com/map-ir/mapir-re
 
 ## What is Mapir?
 
-See[map.ir](https://corp.map.ir)
+See [map.ir](https://corp.map.ir)
 
 ## Installation
 
-* Make sure you are in the example directory
 ```
 git clone https://github.com/map-ir/Mapir-react-native-example.git
 cd Mapir-react-native-example

@@ -1,0 +1,4 @@
+#Sun Jan 20 13:48:53 IRST 2019
+base.0=/Users/reyhane/Documents/mapbox/moduleApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "mapir-react-native-sdk": "^1.6.0",
+    "mapir-react-native-sdk": "^1.6.1",
     "react": "16.6.3",
     "react-native": "0.57.8"
   },

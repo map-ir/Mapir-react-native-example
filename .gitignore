@@ -61,3 +61,5 @@ typings/
 .next
 
 .idea/
+android/app/build
+ios/ios

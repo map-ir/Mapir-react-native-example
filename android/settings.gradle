@@ -1,6 +1,5 @@
-rootProject.name = 'moduleApp'
+rootProject.name = 'mapiriOSExample'
 
+include ':@react-native-mapbox-gl_maps'
+project(':@react-native-mapbox-gl_maps').projectDir = new File(rootProject.projectDir, '../node_modules/mapir-mapbox/android/rctmgl')
 include ':app'
-include ':mapbox-react-native-mapbox-gl'
-project(':mapbox-react-native-mapbox-gl').projectDir = new File(rootProject.projectDir, '../node_modules/mapir-mapbox/android/rctmgl')
-

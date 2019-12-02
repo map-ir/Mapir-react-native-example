@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  as of the date on which this SDK was published. You can use this constant to
  ascertain the style used by `MGLMapView` and `MGLTilePyramidOfflineRegion` when
  no style URL is specified. Consult the
- <a href="https://www.mapbox.com/api-documentation/maps/#styles">Mapbox Styles API documentation</a>
+ <a href="https://docs.mapbox.com/api/maps/#styles">Mapbox Styles API documentation</a>
  for the most up-to-date style versioning information.
 
  @warning The value of this constant may change in a future release of the SDK.
@@ -61,7 +61,29 @@ FOUNDATION_EXTERN MGL_EXPORT MGLExceptionName const MGLRedundantSourceIdentifier
 MGL_EXPORT
 @interface MGLStyle : NSObject
 
-#pragma mark Accessing Default Styles
+#pragma mark Accessing Map.ir Styles
+
+/**
+ Returns the URL to the current version of the Map.ir vector style as of
+ publication.
+
+ `MGLMapView` and `MGLTilePyramidOfflineRegion` use Map.ir Vector when no style
+ is specified explicitly.
+
+ */
+@property (class, nonatomic, readonly) NSURL *mapirVectorStyleURL;
+
+/**
+ Returns the URL to the current version of the Map.ir raster style as of
+ publication.
+
+ `MGLMapView` and `MGLTilePyramidOfflineRegion` use Map.ir Vector when no style
+ is specified explicitly.
+
+ */
+@property (class, nonatomic, readonly) NSURL *mapirRasterStyleURL;
+
+//#pragma mark Accessing Default Styles
 
 /**
  Returns the URL to the current version of the
@@ -79,7 +101,7 @@ MGL_EXPORT
     `+streetsStyleURLWithVersion:` method instead. Such details may change
     significantly from version to version.
  */
-@property (class, nonatomic, readonly) NSURL *streetsStyleURL;
+//@property (class, nonatomic, readonly) NSURL *streetsStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -92,9 +114,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)streetsStyleURLWithVersion:(NSInteger)version;
-
-+ (NSURL *)emeraldStyleURL __attribute__((unavailable("Create an NSURL object with the string “mapbox://styles/mapbox/emerald-v8”.")));
+//+ (NSURL *)streetsStyleURLWithVersion:(NSInteger)version;
 
 /**
  Returns the URL to the current version of the
@@ -109,7 +129,7 @@ MGL_EXPORT
     `+outdoorsStyleURLWithVersion:` method instead. Such details may change
     significantly from version to version.
  */
-@property (class, nonatomic, readonly) NSURL *outdoorsStyleURL;
+//@property (class, nonatomic, readonly) NSURL *outdoorsStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -119,7 +139,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)outdoorsStyleURLWithVersion:(NSInteger)version;
+//+ (NSURL *)outdoorsStyleURLWithVersion:(NSInteger)version;
 
 /**
  Returns the URL to the current version of the
@@ -133,7 +153,7 @@ MGL_EXPORT
     `+lightStyleURLWithVersion:` method instead. Such details may change
     significantly from version to version.
  */
-@property (class, nonatomic, readonly) NSURL *lightStyleURL;
+//@property (class, nonatomic, readonly) NSURL *lightStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -144,7 +164,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)lightStyleURLWithVersion:(NSInteger)version;
+//+ (NSURL *)lightStyleURLWithVersion:(NSInteger)version;
 
 /**
  Returns the URL to the current version of the
@@ -158,7 +178,7 @@ MGL_EXPORT
     `+darkStyleURLWithVersion:` method instead. Such details may change
     significantly from version to version.
  */
-@property (class, nonatomic, readonly) NSURL *darkStyleURL;
+//@property (class, nonatomic, readonly) NSURL *darkStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -169,7 +189,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)darkStyleURLWithVersion:(NSInteger)version;
+//+ (NSURL *)darkStyleURLWithVersion:(NSInteger)version;
 
 /**
  Returns the URL to the current version of the
@@ -188,7 +208,7 @@ MGL_EXPORT
  Satellite styles</a> example to learn how to initialize a map with the Mapbox
  Satellite style.
  */
-@property (class, nonatomic, readonly) NSURL *satelliteStyleURL;
+//@property (class, nonatomic, readonly) NSURL *satelliteStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -199,10 +219,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)satelliteStyleURLWithVersion:(NSInteger)version;
-
-
-+ (NSURL *)hybridStyleURL __attribute__((unavailable("Use -satelliteStreetsStyleURL.")));
+//+ (NSURL *)satelliteStyleURLWithVersion:(NSInteger)version;
 
 /**
  Returns the URL to the current version of the
@@ -224,7 +241,7 @@ MGL_EXPORT
  Satellite styles</a> example to learn how to initialize a map with the Mapbox
  Satellite Streets style.
  */
-@property (class, nonatomic, readonly) NSURL *satelliteStreetsStyleURL;
+//@property (class, nonatomic, readonly) NSURL *satelliteStreetsStyleURL;
 
 /**
  Returns the URL to the given version of the
@@ -237,16 +254,7 @@ MGL_EXPORT
 
  @param version A specific version of the style.
  */
-+ (NSURL *)satelliteStreetsStyleURLWithVersion:(NSInteger)version;
-
-
-+ (NSURL *)trafficDayStyleURL __attribute__((unavailable("Create an NSURL object with the string “mapbox://styles/mapbox/traffic-day-v2”.")));
-
-+ (NSURL *)trafficDayStyleURLWithVersion:(NSInteger)version __attribute__((unavailable("Create an NSURL object with the string “mapbox://styles/mapbox/traffic-day-v2”.")));;
-
-+ (NSURL *)trafficNightStyleURL __attribute__((unavailable("Create an NSURL object with the string “mapbox://styles/mapbox/traffic-night-v2”.")));
-
-+ (NSURL *)trafficNightStyleURLWithVersion:(NSInteger)version __attribute__((unavailable("Create an NSURL object with the string “mapbox://styles/mapbox/traffic-night-v2”.")));
+//+ (NSURL *)satelliteStreetsStyleURLWithVersion:(NSInteger)version;
 
 #pragma mark Accessing Metadata About the Style
 
@@ -473,17 +481,6 @@ MGL_EXPORT
  */
 - (void)removeLayer:(MGLStyleLayer *)layer;
 
-#pragma mark Managing Style Classes
-
-
-@property (nonatomic) NSArray<NSString *> *styleClasses __attribute__((unavailable("Support for style classes has been removed.")));
-
-- (BOOL)hasStyleClass:(NSString *)styleClass __attribute__((unavailable("Support for style classes has been removed.")));
-
-- (void)addStyleClass:(NSString *)styleClass __attribute__((unavailable("Support for style classes has been removed.")));
-
-- (void)removeStyleClass:(NSString *)styleClass __attribute__((unavailable("Support for style classes has been removed.")));
-
 #pragma mark Managing a Style’s Images
 
 /**
@@ -561,8 +558,6 @@ MGL_EXPORT
     language, specify a locale with the identifier `mul`.
  */
 - (void)localizeLabelsIntoLocale:(nullable NSLocale *)locale;
-
-@property (nonatomic) BOOL localizesLabels __attribute__((unavailable("Use -localizeLabelsIntoLocale: instead.")));
 
 @end
 

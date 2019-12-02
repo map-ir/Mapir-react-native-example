@@ -1,13 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="routeee" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Pl" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e12f63c-a3ca-4381-93d3-cfe0c8af25e2" name="Default Changelist" comment="" />
+    <list default="true" id="2e12f63c-a3ca-4381-93d3-cfe0c8af25e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Base.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Base.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAccountManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAnnotation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAnnotationImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAnnotationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAttributedExpression.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLAttributionInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLBackgroundStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCalloutView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCameraChangeReason.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCircleStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLClockDirectionFormatter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCluster.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCompassDirectionFormatter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLComputedShapeSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLCoordinateFormatter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLDistanceFormatter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLFeature.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLFillExtrusionStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLFillStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLForegroundStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLFoundation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLGeometry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLHeatmapStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLHillshadeStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLImageSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLLineStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLLocationManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLLoggingConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMapCamera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMapSnapshotter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMapView+IBAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMapView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMapViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLMultiPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLNetworkConfiguration.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLOfflinePack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLOfflineRegion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLOfflineStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLOpenGLStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLOverlay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLPointAnnotation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLPointCollection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLPolygon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLPolyline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLRasterDEMSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLRasterStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLRasterTileSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLSDKMetricsManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLShape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLShapeCollection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLShapeOfflineRegion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLShapeSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLStyle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLStyleValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLSymbolStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLTilePyramidOfflineRegion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLTileSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLTypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLUserLocation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLUserLocationAnnotationView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLVectorStyleLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/MGLVectorTileSource.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/Mapbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/NSExpression+MGLAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/NSPredicate+MGLAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Headers/NSValue+MGLAdditions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Mapbox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/Modules/module.modulemap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ar.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ar.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/bg.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/bg.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/bg.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/bg.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ca.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ca.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ca.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ca.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/cs.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/cs.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/cs.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/cs.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/da.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/da.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/da.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/da.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/de.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/de.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/de.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/de.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/en.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/en.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/es.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/es.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/es.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/es.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/fr.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/fr.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/fr.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/gl.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/gl.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/gl.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/gl.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/he.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/he.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/hu.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/hu.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/insert_access_token.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ja.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ja.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ko.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ko.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ko.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ko.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/lt.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/lt.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/lt.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/lt.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pl.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-BR.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-BR.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-BR.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-BR.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-PT.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-PT.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/pt-PT.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ru.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ru.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ru.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/ru.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/strip-frameworks.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/sv.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/sv.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/sv.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/sv.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/uk.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/uk.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/uk.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/uk.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/vi.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/vi.lproj/Foundation.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/vi.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/vi.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/zh-Hans.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/zh-Hans.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/zh-Hant.lproj/Foundation.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/zh-Hant.lproj/Localizable.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/Mapbox.framework/zh-Hant.lproj/Localizable.stringsdict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/mapiriOSExample.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/mapiriOSExample.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/mapiriOSExample.xcodeproj/project.xcworkspace/xcuserdata/reyhane.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/mapiriOSExample.xcodeproj/project.xcworkspace/xcuserdata/reyhane.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/mapiriOSExample/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/mapiriOSExample/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/mapiriOSExample/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/mapiriOSExample/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +225,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapiriosexample/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="207">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/src/main/java/com/mapbox/rctmgl/modules/RCTMGLModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="299" column="70" selection-start-line="299" selection-start-column="25" selection-end-line="299" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -65,6 +249,9 @@
     <findStrings>
       <find>Coordinates</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,11 +268,14 @@
     <option name="width" value="1440" />
     <option name="height" value="842" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -97,14 +287,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="Pixel_XL_API_28" />
+    <property name="device.picker.selection" value="Pixel_XL_API_28_2" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.4.1" />
   </component>
   <component name="RunDashboard">
@@ -198,8 +386,8 @@
     <frame x="0" y="23" width="1440" height="842" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49796748" visible="true" weight="0.23676682" />
-      <window_info id="Structure" order="2" sideWeight="0.5020325" side_tool="true" visible="true" weight="0.23676682" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4972752" visible="true" weight="0.23676682" />
+      <window_info id="Structure" order="2" sideWeight="0.50272477" side_tool="true" weight="0.23676682" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -210,11 +398,11 @@
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32833788" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32970026" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32833788" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32833788" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.6444142" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32970026" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.9591281" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -247,8 +435,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapiriosexample/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="207">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/src/main/java/com/mapbox/rctmgl/modules/RCTMGLModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="299" column="70" selection-start-line="299" selection-start-column="25" selection-end-line="299" selection-end-column="70" />
         </state>
       </provider>
     </entry>

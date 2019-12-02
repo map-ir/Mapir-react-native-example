@@ -40,8 +40,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -55,5 +53,7 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>MAPIRAccessToken</key>
+	<string>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjRiNGFhNTRhNDZiNGM5MGQ4MDA3MDIyYTZkMjBlNGFjNTc1ZTI1N2ZlNzVhNTQ4YTViYTBlNDNlYTk3NzUyOTQ3YzcwMDE3NGU5Y2U1YjljIn0.eyJhdWQiOiIzNyIsImp0aSI6IjRiNGFhNTRhNDZiNGM5MGQ4MDA3MDIyYTZkMjBlNGFjNTc1ZTI1N2ZlNzVhNTQ4YTViYTBlNDNlYTk3NzUyOTQ3YzcwMDE3NGU5Y2U1YjljIiwiaWF0IjoxNTU3MDQzOTUyLCJuYmYiOjE1NTcwNDM5NTIsImV4cCI6MTU2MTg5NDgyNCwic3ViIjoiIiwic2NvcGVzIjpbImJhc2ljIl19.nAhZ_9eZfJVxGmIMBBVH3lXLVo_TgSWSftci4fivujqHnQuRj8uMyCxapglsm-OdFSkDs5Gb8ZLbZRFksSOEFB77zVcL6J-jdGA6VDqWTALgm_QQo_ujpZJRp9CHbFNOyNqD9epgT9XDtyAKRUmElJEBSqmVECIhocCKlYhGWhomLsxykFVwA6lwRaDpdV84KjoFJaogQfktzyjxJWQBDJRzDauOjRGgB-7bT26-TQxw-SDKOlMMvIkij06ZWczIaYzLqvnINoZs65BlclWuUeuLqxGsQ4_xegzNeoufR6YauLaHhYClqpucad3qtw8GvJdLij616mMPL9rTbNkv4Q</string>
 </dict>
 </plist>

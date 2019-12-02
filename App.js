@@ -6,8 +6,8 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, TextInput, View} from 'react-native';
+import  React, {Component} from 'react';
+import {Platform, StyleSheet, TextInput, View, Button, PermissionsAndroid} from 'react-native';
 import axios from 'axios';
 import polyline from 'google-polyline';
 import Mapir from 'mapir-react-native-sdk';
@@ -20,8 +20,31 @@ export default class App extends Component<Props> {
             text: '',
             route: {},
             routeLine: [],
-            Markers: []
+            Markers: [],
+            Map: [],
+            location: [51.399863, 35.789938]
         };
+        this.MapView = this.MapView.bind(this)
+    }
+
+    componentDidMount() {
+        if(Platform === 'android')
+        {
+            PermissionsAndroid.requestMultiple(
+                [PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
+                    PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION],
+                {
+                    title: 'Give Location Permission',
+                    message: 'App needs location permission to find your position.'
+                }
+            ).then(granted => {
+                console.log(granted);
+                resolve();
+            }).catch(err => {
+                console.warn(err);
+                reject(err);
+            });
+        }
     }
 
     search(text) {
@@ -72,7 +95,8 @@ export default class App extends Component<Props> {
         var dataRoute = [];
         _this.setState({
             route: [],
-            routeLine: []
+            routeLine: [],
+            location: [lon, lat]
         });
         axios({
             method: 'get',
@@ -113,6 +137,26 @@ export default class App extends Component<Props> {
         })
     }
 
+    MapView() {
+        var _this = this
+        var map = []
+        _this.setState({
+            Map: []
+        })
+        map.push(
+            <Mapir
+                key={1}
+                accessToken={'Mapir.WsLdHK46I5Wfr5xgI0ynjjyiw9Fyhydu'}
+                zoomLevel={13}
+                centerCoordinate={[51.399863, 35.789938]}
+                showUserLocation={true}
+                style={styles.map} />
+        )
+        _this.setState({
+            Map: map
+        })
+    }
+
     render() {
         return (
             <View style={styles.container}>
@@ -123,16 +167,27 @@ export default class App extends Component<Props> {
                     accessToken={'Mapir.WsLdHK46I5Wfr5xgI0ynjjyiw9Fyhydu'}
                     zoomLevel={13}
                     centerCoordinate={[51.399863, 35.789938]}
-                    showUserLocation={true}
+                    attributionEnabled={true}
                     style={styles.map}>
                     <Mapir.Marker id={'1'}
                                   title={'ما اینجا هستیم'}
                                   coordinate={[51.399863, 35.789938]}>
                         <Mapir.Popup title={'ما اینجا هستیم'}/>
                     </Mapir.Marker>
+                    <Mapir.UserLocation animated={true}/>
+                    <Mapir.Camera
+                        zoomLevel={16}
+                        animationMode={'flyTo'}
+                        animationDuration={6000}
+                        centerCoordinate={this.state.location}
+                    />
                     {this.state.Markers}
                     {this.state.routeLine}
                 </Mapir>
+                {/*<Button title={"Map"} onPress={this.MapView} style={styles.button}/>*/}
+                {/*<View>*/}
+                    {/*{this.state.Map}*/}
+                {/*</View>*/}
             </View>
         );
     }
@@ -143,9 +198,16 @@ const styles = StyleSheet.create({
         flex: 2
     },
     map: {
-        flex: 1
+        flex: 1,
+        height: '50%',
+        width: '100%'
     },
     input: {
         height: '10%'
+    },
+    button: {
+        width: '100%',
+        height: '10%',
+        backgroundColor: 'red'
     }
 });

@@ -1,14 +1,11 @@
-<a href="https://www.corp.map.ir">
-  <img src="https://map.ir/css/images/site-logo.svg" width="500"/>
-</a>
+# MapirReatNativeSDK
+[![npm version](https://badge.fury.io/js/mapir-react-native-sdk.svg)](https://www.npmjs.com/package/mapir-react-native-sdk)
 
-# Mapir React Native Demo
 
-Demo Application for [Mapir React Native SDK](https://github.com/map-ir/mapir-react-native-sdk)
+![Map.ir](https://map.ir/css/images/mapir-logo.png) React Native wrapper for mapbox-gl-js. Expose a bunch of component meant to be simple to use for React Native.
 
-## What is Mapir?
-
-See [map.ir](http://corp.map.ir)
+## Get API Key
+🔑 You should first get api key from [Map.ir](https://corp.map.ir/registration/)
 
 ## Installation
 

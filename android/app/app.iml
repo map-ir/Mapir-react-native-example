@@ -174,5 +174,6 @@
     <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.15.0@jar" level="project" />
     <orderEntry type="module" module-name="@react-native-mapbox-gl_maps" />
     <orderEntry type="module" module-name="@react-native-mapbox-gl_maps" />
+    <orderEntry type="module" module-name="@react-native-mapbox-gl_maps" />
   </component>
 </module>

@@ -1,27 +1,30 @@
 {
-  "name": "mapiriOSExample",
+  "name": "MapirRN62",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "google-polyline": "^1.0.3",
-    "latlon-geohash": "^2.0.0",
-    "mapir-react-native-sdk": "^2.1.4",
-    "ngeohash": "^0.6.3",
-    "react": "16.8.3",
-    "react-native": "0.59.10"
+    "axios": "^0.19.2",
+    "mapir-react-native-sdk": "^2.2.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/runtime": "7.0.0-beta.55",
-    "babel-jest": "^24.8.0",
-    "jest": "^24.8.0",
-    "metro-react-native-babel-preset": "^0.55.0",
-    "react-test-renderer": "16.8.3"
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "jetifier": "^1.6.5",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
   },
   "jest": {
     "preset": "react-native"

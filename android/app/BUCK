@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.mapiriosexample",
+    package = "com.mapirrn62",
 )
 
 android_resource(
     name = "res",
-    package = "com.mapiriosexample",
+    package = "com.mapirrn62",
     res = "src/main/res",
 )
 

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/@react-native-mapbox-gl_maps.iml" filepath="$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/@react-native-mapbox-gl_maps.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mapiriOSExample.iml" filepath="$PROJECT_DIR$/mapiriOSExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/@react-native-mapbox-gl_maps.iml" filepath="$PROJECT_DIR$/../node_modules/mapir-mapbox/android/rctmgl/@react-native-mapbox-gl_maps.iml" group="MapirRN62/@react-native-mapbox-gl_maps" />
+      <module fileurl="file://$PROJECT_DIR$/MapirRN62.iml" filepath="$PROJECT_DIR$/MapirRN62.iml" group="MapirRN62" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MapirRN62/app" />
     </modules>
   </component>
 </project>

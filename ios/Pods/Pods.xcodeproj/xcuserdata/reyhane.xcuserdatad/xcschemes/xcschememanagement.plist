@@ -74,22 +74,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MapirRN62-MapirRN62Tests.xcscheme</key>
+		<key>Pods-newRN-newRNTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MapirRN62-tvOS.xcscheme</key>
+		<key>Pods-newRN-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MapirRN62-tvOSTests.xcscheme</key>
+		<key>Pods-newRN-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MapirRN62.xcscheme</key>
+		<key>Pods-newRN.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -100,6 +100,11 @@
 			<false/>
 		</dict>
 		<key>RCTTypeSafety.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React-Core-AccessibilityResources.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -159,6 +164,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>React-callinvoker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>React-cxxreact.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -205,11 +215,6 @@
 			<false/>
 		</dict>
 		<key>glog.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>react-native-mapbox-gl.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

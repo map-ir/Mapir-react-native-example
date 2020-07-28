@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0748bb14-5b57-472b-a61c-7f991ae011f0" name="Default Changelist" comment="" />
+    <list default="true" id="7d3b9e29-91a8-4cec-bf4f-2c0bb2598ecf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_R" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -24,21 +21,10 @@
       </state>
     </system>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="842" />
-  </component>
-  <component name="ProjectId" id="1cIcBw3xUvjnV6lGjFt9yKCQirH" />
+  <component name="ProjectId" id="1fIpmyeLBoU5Nt7jjPx6BqX7G6w" />
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_28_2" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-23T07:49:57.668Z" />
-    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="Pixel_XL_API_28_2" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="project.structure.last.edited" value="Dependencies" />
-    <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,7 +46,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -117,11 +103,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0748bb14-5b57-472b-a61c-7f991ae011f0" name="Default Changelist" comment="" />
-      <created>1590217201822</created>
+      <changelist id="7d3b9e29-91a8-4cec-bf4f-2c0bb2598ecf" name="Default Changelist" comment="" />
+      <created>1595915623924</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590217201822</updated>
+      <updated>1595915623924</updated>
     </task>
     <servers />
   </component>

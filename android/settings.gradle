@@ -1,6 +1,5 @@
-rootProject.name = 'MapirRN62'
+rootProject.name = 'newRN'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':@react-native-mapbox-gl_maps'
 project(':@react-native-mapbox-gl_maps').projectDir = new File(rootProject.projectDir, '../node_modules/mapir-mapbox/android/rctmgl')
-apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
-

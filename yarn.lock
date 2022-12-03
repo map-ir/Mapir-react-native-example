@@ -647,6 +647,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@turf/helpers@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@turf/helpers/-/helpers-4.6.0.tgz#12398733b8ae28420df6166fa44c7ee8ffd6414c"
+  integrity sha512-XTYO+cGhTSNEnbkIwKQvbaNbsSCPF+01TWkqZocLb8rqo7uLql9f1Hr4sYoZAujW9vcD1LrXxzIRN0rzyeExwQ==
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
@@ -1622,9 +1627,9 @@ decamelize@^1.1.1:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
@@ -3497,6 +3502,21 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+mapir-mapbox@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/mapir-mapbox/-/mapir-mapbox-1.2.1.tgz#275c6efdba78ba5f9f7db7faf3e5ec65f2093da8"
+  integrity sha512-rZyJITVZGCjXLIb54/6yfIgaQFdnW4F8PxhDQg2cbXwbvqgNPdFs+VeYhoOAgYMML9fjHhMZiVeDh+pixizqig==
+  dependencies:
+    "@turf/helpers" "4.6.0"
+    underscore "^1.8.3"
+
+mapir-react-native-sdk@^1.6.1:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/mapir-react-native-sdk/-/mapir-react-native-sdk-1.8.0.tgz#a21103426d6ce25607f39eaa2397b3aa824403f5"
+  integrity sha512-USVGY9B0wP/mLqLxf53I0yB9zTBkY5IXYbueS49QOR6IVF28xGYbBzNLVkef64X7gD+IvzsCa4mXfIyEZRweXw==
+  dependencies:
+    mapir-mapbox "1.2.1"
 
 math-random@^1.0.1:
   version "1.0.3"
@@ -5549,6 +5569,11 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
+
+underscore@^1.8.3:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
+  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
